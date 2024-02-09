@@ -1,0 +1,421 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(53, 48, 50);
+    background: linear-gradient(137deg, rgba(53, 48, 50, 1) 0%, rgba(6, 26, 94, 1) 100%);
+    /* border: 1px solid red; */
+}
+
+main nav {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* border: 1px solid blue; */
+}
+
+nav ul {
+    width: auto;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    list-style-type: none;
+    /* border: 1px solid red; */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+
+}
+
+nav button {
+    width: 106px;
+    height: 49px;
+    border: 1px solid white;
+    border-radius: 50px;
+    background: none;
+    color: white;
+    cursor: pointer;
+}
+
+.main2 {
+    width: 100%;
+    height: 89%;
+    /* border: 1px solid gold; */
+    display: flex;
+    align-items: center;
+}
+
+.main2Text {
+    width: 45%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 70px;
+    /* border: 1px solid greenyellow; */
+}
+
+.main2Text h1 {
+    font-size: 67px;
+    color: white;
+}
+
+.main2Text p {
+    margin-top: 20px;
+    line-height: 29px;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.main2Image {
+    width: 55%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid hotpink; */
+    padding: 0 20px;
+}
+
+.main2Image img {
+    width: 100%;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+.conatiner {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boshqaXizmatlar {
+    width: 100%;
+    height: 110vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid red; */
+}
+
+.xizmatCards {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 60px;
+    /* border: 1px solid blue; */
+}
+
+.xizmatCard {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    /* border: 1px solid gold; */
+    border-radius: 20px;
+}
+
+.xizmatCard h2 {
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.xizmatCard img {
+    width: 90%;
+    margin-top: 40px;
+}
+
+.Xizmatlar {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    /* border: 1px solid red; */
+}
+
+.Xizmatlar h1 {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.mainXizmat {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 30px;
+}
+
+.xizmat {
+    width: 90%;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid #00FF47; */
+}
+
+.xizmatImg {
+    width: 55%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    /* border: 1px solid darkgoldenrod; */
+}
+
+.xizmatImg img {
+    width: 90%;
+    object-fit: cover;
+}
+
+.xizmatText {
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    text-align: start;
+    padding: 20px;
+    /* border: 1px solid #ff4a08; */
+}
+
+.xizmatText p {
+    width: 80%;
+    margin-top: 30px;
+}
+
+.xizmatText button {
+    width: 131px;
+    height: 46px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    color: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border: none;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: .3s;
+    background-color: #31135f;
+}
+
+.xizmatText button:hover {
+    box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.25);
+    transition: .3s;
+}
+
+.Paketlar {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* border: 1px solid red; */
+}
+
+.Paketlar h1 {
+    margin-top: 70px;
+}
+
+.pakets {
+    width: 85%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid blue; */
+}
+
+.paket {
+    width: 370px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    border-radius: 20px;
+    /* border: 1px solid blueviolet; */
+}
+
+.paket>h1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 35px;
+    /* border: 1px solid red; */
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.paket h1 span {
+    font-weight: 500;
+    color: #6A6A6A;
+}
+
+.paket button {
+    width: 318px;
+    height: 48px;
+    border-radius: 10px;
+    background-color: #72A0FB;
+    border: none;
+    font-size: 20px;
+    font-weight: 550;
+    color: #FFF;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+.paket ul {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    list-style-type: none;
+    /* border: 1px solid red; */
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.murojatPaket {
+    width: 90%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    padding: 0 120px;
+}
+
+.paketInput {
+    width: 422px;
+    height: 68px;
+    border-radius: 45px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    /* border: 1px solid blue; */
+}
+
+.paketInput input {
+    width: 230px;
+    height: 100%;
+    border: none;
+    outline: none;
+    padding-left: 30px;
+}
+
+.paketInput button {
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #490DD6;
+    color: #FFF;
+    font-size: 18px;
+    border: none;
+    margin-left: 30px;
+}
+
+footer {
+    width: 100%;
+    height: 523px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-around;
+    background-color: #000;
+    color: #FFF;
+    padding: 150px 0;
+}
+
+footer p {
+    width: 380px;
+    line-height: 27px;
+    /* border: 1px solid red; */
+}
+
+footer ul {
+    height: 330px;
+    /* border: 1px solid red; */
+    list-style-type: none;
+}
+
+footer ul h1 {
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+
+footer ul li {
+    margin-top: 18px;
+}
+
+.savollar {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.savollar h1 {
+    font-size: 25px;
+}
+
+.savolInput {
+    width: 422px;
+    height: 68px;
+    border-radius: 45px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    /* border: 1px solid blue; */
+    background-color: #FFF;
+}
+
+.savolInput input {
+    width: 230px;
+    height: 100%;
+    border: none;
+    outline: none;
+    padding-left: 30px;
+}
+
+.savolInput button {
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #490DD6;
+    color: #FFF;
+    font-size: 18px;
+    border: none;
+    margin-left: 30px;
+}
